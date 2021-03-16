@@ -12,7 +12,6 @@ class DrawTriangleShape extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    // TODO: implement paint
     var path = Path();
 
     path.moveTo(size.width / 2, 0);
@@ -25,7 +24,6 @@ class DrawTriangleShape extends CustomPainter {
 
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) {
-    // TODO: implement shouldRepaint
     return false;
   }
 }
